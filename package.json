@@ -1,0 +1,25 @@
+{
+  "name": "babel-guide",
+  "version": "1.0.0",
+  "description": "> **Transpiling** is a specific term for taking source code written in one language and transforming into another language that has a similar level of abstraction.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src -d lib",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Dane Thurber <dane.thurber@gmail.com> (http://github.com/danethurber)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.4.5",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-runtime": "6.4.3",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13"
+  },
+  "devDependencies": {
+    "babel-cli": "6.4.5"
+  }
+}

@@ -41,8 +41,8 @@ build/Release
 # Dependency directory
 node_modules
 
-# Compiled Assets
-public/assets
+# Compiled
+lib
 
 # Environment config
 .env
