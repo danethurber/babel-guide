@@ -9,9 +9,9 @@ log('logging like a boss')
 // ==== String templates
 
 // var state = 'work'
-// log(`string templates ${state}`)
+// console.log(`string templates ${state}`)
 //
-// log(`
+// console.log(`
 // multi line strings
 // also ${state}!!
 // `)
@@ -27,7 +27,7 @@ log('logging like a boss')
 //
 // evented.on('some-event', (message) => log(message))
 //
-// log(evented.now)
+// console.log(evented.now)
 
 // ==== Argument spread and rest operators
 
@@ -65,5 +65,5 @@ log('logging like a boss')
 //
 // for (var n of fibonacciIterator) {
 //   if (n > 1000) break
-//   log(n)
+//   console.log(n)
 // }

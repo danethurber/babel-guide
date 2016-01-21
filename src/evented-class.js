@@ -4,7 +4,11 @@ class AllTheEvents extends EventEmitter {
   constructor(...args) {
     super(args)
 
-    setTimeout(() => this.emit('some-event', 'some-string'), 0)
+    setTimeout(::this.emitMessage, 0)
+  }
+
+  emitMessage() {
+    this.emit('some-event', 'i am a message')
   }
 
   get now() {

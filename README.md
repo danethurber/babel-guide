@@ -4,23 +4,22 @@
 
 ## Why?
 
-Get all the benefits of future version of ecmascript today.
+Get all the benefits of future versions of ecmascript today.
 
-Things our team has found valuable
+Things our team has found valuable and some things that are amazing but we don't know what to do with yet.
 
-- class and extends
-- import/export modules
-- arrow functions
-- functional binding
-- let
-- const
-- decorators
+- let and const
 - string interpolation
+- arrow functions
 - destructuring
 - param defaults
 - params rest
 - spreads
+- class and extends
+- import/export modules
 - async/await
+- decorators
+- es7 function bind syntax
 - and many other things (map, set, reflect, symbols, iterators, generators, mathz)
 
 [a wild example appears](https://github.com/ps-dev/ps-messaging-node/blob/master/src/subscriber.js)
